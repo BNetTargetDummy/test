@@ -2,6 +2,7 @@
   "name": "@targetdummy/test-runner",
   "version": "0.0.1",
   "description": "The test runner for TargetDummy",
+  "main": "index.js",
   "author": {
     "name": "Alcha",
     "email": "alcha@paranoiddevs.com",
@@ -12,9 +13,11 @@
     "type": "git",
     "url": "https://github.com/bnettargetdummy/test-runner.git"
   },
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "@targetdummy/logger": "BNetTargetDummy/logger",
-    "async": "2.5.0",
     "blizzard.js": "1.7.0"
   },
   "devDependencies": {
