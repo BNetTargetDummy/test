@@ -1,7 +1,7 @@
 {
-  "name": "@targetdummy/test",
+  "name": "@targetdummy/test-runner",
   "version": "0.0.1",
-  "description": "Test Interface for TargetDummy",
+  "description": "The test runner for TargetDummy",
   "author": {
     "name": "Alcha",
     "email": "alcha@paranoiddevs.com",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnettargetdummy/test.git"
+    "url": "https://github.com/bnettargetdummy/test-runner.git"
   },
   "dependencies": {
     "@targetdummy/logger": "BNetTargetDummy/logger",
