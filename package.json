@@ -1,0 +1,23 @@
+{
+  "name": "@targetdummy/test",
+  "version": "0.0.1",
+  "description": "Test Interface for TargetDummy",
+  "author": {
+    "name": "Alcha",
+    "email": "alcha@paranoiddevs.com",
+    "url": "https://dleaman.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bnettargetdummy/test.git"
+  },
+  "dependencies": {
+    "@targetdummy/logger": "BNetTargetDummy/logger",
+    "async": "2.5.0",
+    "blizzard.js": "1.7.0"
+  },
+  "devDependencies": {
+    "standard": "10.0.3"
+  }
+}
