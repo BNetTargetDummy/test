@@ -1,4 +1,5 @@
 const Access = require('../../../../../src/access')
+const faker = require('faker')
 
 class RetrieveAchievement extends Access {
   constructor (options) {
@@ -26,11 +27,11 @@ class RetrieveAchievement extends Access {
 
   requestObject () {
     return {
-      game: 'wow',
-      type: 'achievement',
+      game: faker.random.word,
+      type: faker.random.word,
       args: {
-        id: 2144,
-        origin: 'us'
+        id: faker.random.number,
+        origin: faker.address.country
       }
     }
   }

@@ -18,7 +18,8 @@
   },
   "dependencies": {
     "@targetdummy/logger": "BNetTargetDummy/logger",
-    "blizzard.js": "1.7.0"
+    "blizzard.js": "1.7.0",
+    "faker": "^4.1.0"
   },
   "devDependencies": {
     "standard": "10.0.3"
