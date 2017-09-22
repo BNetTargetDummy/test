@@ -1,0 +1,4 @@
+{
+  "regions": ["US", "KR", "TW", "CN", "EU", "SEA"],
+  "games": ["wow", "sc2", "d3", "hs", "ow"]
+}

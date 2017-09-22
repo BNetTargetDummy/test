@@ -1,5 +1,6 @@
 const Access = require('../../../../../src/access')
-const faker = require('faker')
+const DataGenerator = require('../../../../../data/data-generator')
+const datagen = new DataGenerator()
 
 class RetrieveAchievement extends Access {
   constructor (options) {
@@ -27,11 +28,11 @@ class RetrieveAchievement extends Access {
 
   requestObject () {
     return {
-      game: faker.random.word,
-      type: faker.random.word,
+      game: 'wow', // Achievement requests are only valid for WoW (could use datagen.game())
+      type: 'achievement', // Indicates to the base class we're testing the achievements
       args: {
-        id: faker.random.number,
-        origin: faker.address.country
+        id: datagen.randomNumber(),
+        origin: datagen.region()
       }
     }
   }
